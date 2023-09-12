@@ -6,7 +6,7 @@
 - Real-time weather data from OpenWeatherMap API.
 - Dynamic background images.
 - City search bar for weather updates.
-- Display of temperature, conditions, humidity, and wind speed.
+- Display of temperature, conditions, and humidity.
 
 ## Technologies Used
 
