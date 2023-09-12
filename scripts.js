@@ -5,7 +5,7 @@ const key = "a7dcb2e68c38d8ed6038d058005e05c7"
      document.querySelector(".city").innerHTML = "Weather in: " + data.name
      document.querySelector(".degree").innerHTML = Math.floor(data.main.temp) + "°C"
      document.querySelector(".description").innerHTML = data.weather[0].description
-     document.querySelector(".humidity").innerHTML = data.main.humidity + "%"
+     document.querySelector(".humidity").innerHTML = data.main.humidity + "% of Humidity"
      document.querySelector(".weather-icon").src = `https://openweathermap.org/img/wn/${data.weather[0].icon}.png`
      document.querySelector(".input-city").value = ""
      document.querySelector
